@@ -77,7 +77,7 @@ async function loadInvoicesGroupedByMonth() {
 
                     racunDiv.innerHTML = `
 
-                    <button background-image:"downloadpdf.png" class="download" data-id="${invoice.id}"></button>
+                    <button class="download" data-id="${invoice.id}"></button>
                     <p><span style="font-weight: bold;">TIP:</span> ${invoice.type}</p>
                     <p><span style="font-weight: bold;">DATUM:</span> ${formattedDate}</p>
                     <p><span style="font-weight: bold;">BROJ:</span> ${invoice.invoiceNumber}</p>
