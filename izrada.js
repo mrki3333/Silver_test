@@ -116,11 +116,7 @@ function addStavkaToDOM({ id, name, quantity, unit, price }) {
         <div class="stavkeInfo"><p><strong>KOLIČINA:</strong> ${quantity}</p></div>
         <div class="stavkeInfo"><p><strong>JED. MJERE:</strong> ${unit}</p></div>
         <div class="stavkeInfo"><p><strong>IZNOS:</strong> ${(price * quantity).toFixed(2)}€</p></div>
-        <div class = "gumbiEditX">
-            <button class="deleteButton">X</button>
-            <button class="editButton">UREDI</button>
-        </div>
-
+        <button class="deleteButton">X</button>
 
     `;
 
