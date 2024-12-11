@@ -158,7 +158,7 @@ button.openButton {
         margin-bottom: 3px;
         width: 40px;
         height: 40px;
-        background-image: url('/downloadpdf.png');
+        background-image: url('/Silver_test/downloadpdf.png');
         background-size: cover; /* Podesi veličinu pozadinske slike */
         background-position: center; /* Centriraj pozadinsku sliku */
     }
