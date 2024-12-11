@@ -129,7 +129,17 @@ form button:hover {
 }
 
 /* Gumb za brisanje */
-.deleteButton .editButton {
+.deleteButton {
+    border: none;
+    background: #b10000;
+    color: white;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+} .editButton {
     border: none;
     background: #b10000;
     color: white;
